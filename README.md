@@ -93,20 +93,20 @@ While this code uses `+`, the output will be nothing but a column of numbers. Wh
 
 You should be able to...
 
-- [ ] Open the terminal outside of VS code
-- [ ] Use `cd` to navigate between directories
-- [ ] Use `ls` to list the contents of a directory
-- [ ] Use `mkdir` to create an empty directory
-- [ ] Use `code` to open VS Code
-- [ ] Use `git clone` to download a git repository onto your computer
+- [X] Open the terminal outside of VS code
+- [X] Use `cd` to navigate between directories
+- [X] Use `ls` to list the contents of a directory
+- [X] Use `mkdir` to create an empty directory
+- [X] Use `code` to open VS Code
+- [X] Use `git clone` to download a git repository onto your computer
 
 ### Editing And Running Code
 
 You should be able to...
 
-- [ ] Create a new (empty) JavaScript file named `sandbox.js` and edit it in VS code
-- [ ] Write some JavaScript in `sandbox.js`
-- [ ] Use `node` in the terminal to run the file
+- [X] Create a new (empty) JavaScript file named `sandbox.js` and edit it in VS code
+- [X] Write some JavaScript in `sandbox.js`
+- [X] Use `node` in the terminal to run the file
 
 The name `sandbox.js` is meant as an example. You could name the file anything.
 
@@ -114,117 +114,117 @@ The name `sandbox.js` is meant as an example. You could name the file anything.
 
 You should be able to...
 
-- [ ] Use the `node` command to enter into the interactive JavaScript shell (REPL)
-- [ ] Type small snippets of JavaScript in the REPL and observe how they're evaluated
-- [ ] Exit the REPL
+- [X] Use the `node` command to enter into the interactive JavaScript shell (REPL)
+- [X] Type small snippets of JavaScript in the REPL and observe how they're evaluated
+- [X] Exit the REPL
 
 ## Tasks - JavaScript Fundamentals
 
 ### Console Output And Debugging
 
-- [ ] Use `console.log` to print to the console
-- [ ] Use `typeof` to check what type of data a variable holds
+- [X] Use `console.log` to print to the console
+- [X] Use `typeof` to check what type of data a variable holds
 
 ### Numbers
 
 In a file named `numbers.js`, you should be able to do the following:
 
-- [ ] Assign different numbers to two variables named `num1` and `num2`
-- [ ] Use the following operations on `num1` and `num2` and explain what they represent:
-  - [ ] `+`
-  - [ ] `-`
-  - [ ] `*`
-  - [ ] `/`
-  - [ ] `%`
-  - [ ] `**`
-  - [ ] `Math.floor(num1 / num2)`
-- [ ] Predict how the output of your program will change when you change the values of `num1` and `num2`
-- [ ] Assign a number to a variable named `blah` and...
-  - [ ] Get the right-most digit in `blah` using the `%` operator
-  - [ ] Determine whether `blah` is even or odd
-  - [ ] Increment the value of `blah`...
-    - [ ] By `1`
-    - [ ] By `2`
-    - [ ] By `10`
-    - [ ] By `k`, where `k` is a variable containing a number
-  - [ ] Decrement the value of `blah`...
-    - [ ] By `1`
-    - [ ] By `2`
-    - [ ] By `10`
-    - [ ] By `k`, where `k` is a variable containing a number
+- [X] Assign different numbers to two variables named `num1` and `num2`
+- [X] Use the following operations on `num1` and `num2` and explain what they represent:
+  - [X] `+`
+  - [X] `-`
+  - [X] `*`
+  - [X] `/`
+  - [X] `%`
+  - [X] `**`
+  - [X] `Math.floor(num1 / num2)`
+- [X] Predict how the output of your program will change when you change the values of `num1` and `num2`
+- [X] Assign a number to a variable named `blah` and...
+  - [X] Get the right-most digit in `blah` using the `%` operator
+  - [X] Determine whether `blah` is even or odd
+  - [X] Increment the value of `blah`...
+    - [X] By `1`
+    - [X] By `2`
+    - [X] By `10`
+    - [X] By `k`, where `k` is a variable containing a number
+  - [X] Decrement the value of `blah`...
+    - [X] By `1`
+    - [X] By `2`
+    - [X] By `10`
+    - [X] By `k`, where `k` is a variable containing a number
 
 ### Strings
 
 In a file called `strings.js`, you should be able to do the following:
 
-- [ ] Assign different strings to two variables named `str1` and `str2` and...
-  - [ ] Print the values of `str1` and `str2`
-  - [ ] Concatenate `str1` and `str2`
-  - [ ] Determine whether `str1` appears in `str2` using `String.prototype.includes`
-- [ ] Assign a string to a variable named `waffles` and...
-  - [ ] Get the number of characters in the string (its length)
-  - [ ] Convert it to uppercase
-  - [ ] Convert it to lowercase
-  - [ ] Get the 1st character in `waffles` (at index `0`)
-  - [ ] Get the 2nd character in `waffles` (at index `1`)
-  - [ ] Get the last character in `waffles`
-  - [ ] Define a variable `k` containing a number and get the character at index `k` in `waffles`
-  - [ ] Modify the value of `waffles` by appending the letter `'a'` to it
-- [ ] Use template literals to print a formatted string containing dynamic information, e.g., if `firstName` is `'Jesse'`, use a template literal to print `'Hello, Jesse!'`.
+- [X] Assign different strings to two variables named `str1` and `str2` and...
+  - [X] Print the values of `str1` and `str2`
+  - [X] Concatenate `str1` and `str2`
+  - [X] Determine whether `str1` appears in `str2` using `String.prototype.includes`
+- [X] Assign a string to a variable named `waffles` and...
+  - [X] Get the number of characters in the string (its length)
+  - [X] Convert it to uppercase
+  - [X] Convert it to lowercase
+  - [X] Get the 1st character in `waffles` (at index `0`)
+  - [X] Get the 2nd character in `waffles` (at index `1`)
+  - [X] Get the last character in `waffles`
+  - [X] Define a variable `k` containing a number and get the character at index `k` in `waffles`
+  - [X] Modify the value of `waffles` by appending the letter `'a'` to it
+- [X] Use template literals to print a formatted string containing dynamic information, e.g., if `firstName` is `'Jesse'`, use a template literal to print `'Hello, Jesse!'`.
 
 ### Arrays
 
 In a file called `arrays.js`, you should be able to do the following:
 
-- [ ] Declare a variable named `coolArray` containing an array of at least 5 elements (of any type)
-- [ ] Get the length of `coolArray`
-- [ ] Get the value of...
-  - [ ] The 1st element in `coolArray` (at index `0`)
-  - [ ] The 2nd element in `coolArray` (at index `1`)
-  - [ ] The last element in `coolArray`
-  - [ ] The element at index `k` in `coolArray`, where `k` is a variable containing a number
-- [ ] Change the value of...
-  - [ ] The 1st element in `coolArray` (at index `0`)
-  - [ ] The 2nd element in `coolArray` (at index `1`)
-  - [ ] The last element in `coolArray`
-  - [ ] The element at index `k` in `coolArray`, where `k` is a variable containing a number
-- [ ] Append an element to `coolArray`
-- [ ] Remove the last element of `coolArray`
-- [ ] Prepend an element to `coolArray`
-- [ ] Remove the first element of `coolArray`
+- [X] Declare a variable named `coolArray` containing an array of at least 5 elements (of any type)
+- [X] Get the length of `coolArray`
+- [X] Get the value of...
+  - [X] The 1st element in `coolArray` (at index `0`)
+  - [X] The 2nd element in `coolArray` (at index `1`)
+  - [X] The last element in `coolArray`
+  - [X] The element at index `k` in `coolArray`, where `k` is a variable containing a number
+- [X] Change the value of...
+  - [X] The 1st element in `coolArray` (at index `0`)
+  - [X] The 2nd element in `coolArray` (at index `1`)
+  - [X] The last element in `coolArray`
+  - [X] The element at index `k` in `coolArray`, where `k` is a variable containing a number
+- [X] Append an element to `coolArray`
+- [X] Remove the last element of `coolArray`
+- [X] Prepend an element to `coolArray`
+- [X] Remove the first element of `coolArray`
 
 ### Objects
 
 In a file called `objects.js`, you should be able to do the following:
 
-- [ ] Declare a variable named `personData` containing an empty object `{}`
-- [ ] Modify `personData` so that...
-  - [ ] The value for the key `firstName` is `'Jean-Luc'`
-  - [ ] The value for the key `lastName` is `'Picard'`
-  - [ ] The value for the key `age` is `79`
-- [ ] Create an object named `daysInMonth` whose keys are strings of the month names `'January'`, `'February'`, etc. and the keys are the number of days in that month.
+- [X] Declare a variable named `personData` containing an empty object `{}`
+- [X] Modify `personData` so that...
+  - [X] The value for the key `firstName` is `'Jean-Luc'`
+  - [X] The value for the key `lastName` is `'Picard'`
+  - [X] The value for the key `age` is `79`
+- [X] Create an object named `daysInMonth` whose keys are strings of the month names `'January'`, `'February'`, etc. and the keys are the number of days in that month.
 
 ### Conversions And Equivalents
 
 In a file called `conversions.js`, you should be able to do the following:
 
-- [ ] Convert a number to a string, e.g., `1234` to `'1234'`
-- [ ] Convert a string to a number, e.g., `'1234'` to `1234`
-- [ ] Convert a string to an array containing its characters, e.g.,
+- [X] Convert a number to a string, e.g., `1234` to `'1234'`
+- [X] Convert a string to a number, e.g., `'1234'` to `1234`
+- [X] Convert a string to an array containing its characters, e.g.,
 
   ```javascript
   'apples'
   ['a', 'p', 'p', 'l', 'e', 's']
   ```
 
-- [ ] Given an array containing strings, join the strings together into a single string
+- [X] Given an array containing strings, join the strings together into a single string
 
   ```javascript
   ['one', '--two--', 'three']
   'one--two--three'
   ```
 
-- [ ] Given an array containing strings, join the strings together into a string separated by a `|` character
+- [X] Given an array containing strings, join the strings together into a string separated by a `|` character
 
   ```javascript
   ['one', 'two', 'three']
