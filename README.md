@@ -239,33 +239,33 @@ You will probably want to create more than one file to demonstrate everything be
 
 You should be able to do the following using a loop:
 
-- Print out every integer between `40` and `60` (including both `40` and `60`)
-- Print out every even integer between `40` and `60` (including both `40` and `60`)
-- Define variables `min` and `max` containing integers and...
-  - Print out every integer between `min` and `max` (inclusive)
-  - Print out every even integer between `min` and `max` (inclusive)
-- Print the first `10` multiples of `7`
-- Print the first `k` multiples of `7`, where `k` is a variable containing a positive integer
-- Print the first `k` multiples of `n`, where `k` is a variable containing a positive integer and `n` is any number
+- [X] Print out every integer between `40` and `60` (including both `40` and `60`)
+- [X] Print out every even integer between `40` and `60` (including both `40` and `60`)
+- [X] Define variables `min` and `max` containing integers and...
+  - [X] Print out every integer between `min` and `max` (inclusive)
+  - [X] Print out every even integer between `min` and `max` (inclusive)
+- [X] Print the first `10` multiples of `7`
+- [X] Print the first `k` multiples of `7`, where `k` is a variable containing a positive integer
+- [X] Print the first `k` multiples of `n`, where `k` is a variable containing a positive integer and `n` is any number
 
 #### Looping With Arrays
 
-- Define an array called `coolArray` containing at least 4 elements of any type and...
-  - Print every element of `coolArray`
-  - Print every other element of `coolArray`, starting with the first element
-  - Print the elements of `coolArray` in reverse order
+- [X] Define an array called `coolArray` containing at least 4 elements of any type and...
+  - [X] Print every element of `coolArray`
+  - [X] Print every other element of `coolArray`, starting with the first element
+  - [X] Print the elements of `coolArray` in reverse order
 
 ##### ...Containing Numbers
 
-- [ ] Declare an array containing at least 8 numbers called `listOfNumbers` and...
-  - [ ] Print out the largest element
-  - [ ] Print out the smallest element
-  - [ ] Print out all the elements greater than `0`
-  - [ ] Print out all the elements greater than `k`, where `k` is a variable containing a number
-  - [ ] Print out all the even elements
-- [ ] Using `sort()`...
-  - [ ] Print out elements of `coolArray` sorted from largest to smallest
-  - [ ] Print out the elements of `coolArray` sorted from smallest to largest
+- [X] Declare an array containing at least 8 numbers called `listOfNumbers` and...
+  - [X] Print out the largest element
+  - [X] Print out the smallest element
+  - [X] Print out all the elements greater than `0`
+  - [X] Print out all the elements greater than `k`, where `k` is a variable containing a number
+  - [X] Print out all the even elements
+- [X] Using `sort()`...
+  - [X] Print out elements of `coolArray` sorted from largest to smallest
+  - [X] Print out the elements of `coolArray` sorted from smallest to largest
 
 ##### ...Containing Strings
 
