@@ -269,54 +269,54 @@ You should be able to do the following using a loop:
 
 ##### ...Containing Strings
 
-- [ ] Define an array containing at least 8 strings called `listOfStrings` and...
-  - [ ] Print out the longest string
-  - [ ] Print out the shortest string
-  - [ ] Print out all the strings longer than `3` characters
-  - [ ] Print out all the strings longer than `minLength` characters, where `minLength` is a variable containing a number
-  - [ ] Print out the first string that begins with the letter `A`
-  - [ ] Print `'found it!'` if `listOfStrings` contains the string `'needle'`
-- [ ] Using `sort()`...
-  - [ ] Print out elements of `listOfStrings` sorted alphabetically (from A to Z)
-  - [ ] Print out the elements of `listOfStrings` sorted reverse alphabetically (from Z to A)
+- [X] Define an array containing at least 8 strings called `listOfStrings` and...
+  - [X] Print out the longest string
+  - [X] Print out the shortest string
+  - [X] Print out all the strings longer than `3` characters
+  - [X] Print out all the strings longer than `minLength` characters, where `minLength` is a variable containing a number
+  - [X] Print out the first string that begins with the letter `A`
+  - [X] Print `'found it!'` if `listOfStrings` contains the string `'needle'`
+- [X] Using `sort()`...
+  - [X] Print out elements of `listOfStrings` sorted alphabetically (from A to Z)
+  - [X] Print out the elements of `listOfStrings` sorted reverse alphabetically (from Z to A)
 
 ### Looping With Objects
 
-- [ ] Declare an object `coolObject` containing at least 5 key/value pairs and..
-  - [ ] Print out every key and value in `coolObject`
-  - [ ] Without changing `coolObject`, use `sort()` to...
-    - [ ] Print every key and value in `coolObject` in alphabetical order (A to Z)
-    - [ ] Print every key and value in `coolObject` in reverse alphabetical order (Z to A)
-- [ ] Iterate over the `daysInMonth` object from the [Objects](#objects) section, printing out the name of every month that has `31` days.
+- [X] Declare an object `coolObject` containing at least 5 key/value pairs and..
+  - [X] Print out every key and value in `coolObject`
+  - [X] Without changing `coolObject`, use `sort()` to...
+    - [X] Print every key and value in `coolObject` in alphabetical order (A to Z)
+    - [X] Print every key and value in `coolObject` in reverse alphabetical order (Z to A)
+- [X] Iterate over the `daysInMonth` object from the [Objects](#objects) section, printing out the name of every month that has `31` days.
 
 ### Logical Operators
 
 In a file called `logic.js`, you should be able to do the following:
 
-- [ ] Declare two numbers `num1` and `num2`. Print a one message if both are even, a different message if only one is even, and a third message if neither are even.
-- [ ] Write code that makes use of the following logical operators:
-  - [ ] `||`
-  - [ ] `&&`
-  - [ ] `!`
+- [X] Declare two numbers `num1` and `num2`. Print a one message if both are even, a different message if only one is even, and a third message if neither are even.
+- [X] Write code that makes use of the following logical operators:
+  - [X] `||`
+  - [X] `&&`
+  - [X] `!`
 
 ### Functions
 
 In a file called `functions.js`, you should be able to define and call the following functions with some relevant example inputs. If they return a value but don't print anything, you should be able to print what they return.
 
-- [ ] A function `greet` that takes in a string representing someone's first name and prints out a greeting. The greeting can be anything, but it should contain the given name.
-- [ ] A function called `hotOrCold` that takes a number as input and returns:
+- [X] A function `greet` that takes in a string representing someone's first name and prints out a greeting. The greeting can be anything, but it should contain the given name.
+- [X] A function called `hotOrCold` that takes a number as input and returns:
     1. `'hot'` if the number is greater than `100`
     1. `'correct'` if the number is exactly `100`
     1. `'cold'` if the number is less than `100`
-- [ ] A function `add` that takes two numbers as input and returns (not prints) their sum.
-  - [ ] A function `sum` that takes an array of numbers as input and returns their sum (using the `add` function you defined above)
-- [ ] A function `larger` that takes two numbers as input and returns the larger of the two (don't use the built-in `Math.max` function)
-  - [ ] A function `largest` that takes an array of numbers as input an returns the largest in the array (using the function `larger` you defined above)
-- [ ] A function `longer` that takes two strings as input and returns the longer of the two
-  - [ ] A function `longest` that takes an array of strings as input and returns the longest string in the array (using the `longer` function you defined above)
-- [ ] A function `reverse` that takes an array as input and returns a new array containing the same elements as the input array, but in reverse order (don't use the build-in `reverse()` function)
-- [ ] A function `isChicagoPhoneNumber` that takes an array of US phone numbers as input and returns true if the area code is 773, 312, or 872. The phone numbers are strings that look like `'XXX-YYY-ZZZZ'`.
-- [ ] A function `letterCounts` that takes a string as an input and returns an object whose keys are the letters in the string and whose values are the number of times a particular letter appears.
+- [X] A function `add` that takes two numbers as input and returns (not prints) their sum.
+  - [X] A function `sum` that takes an array of numbers as input and returns their sum (using the `add` function you defined above)
+- [X] A function `larger` that takes two numbers as input and returns the larger of the two (don't use the built-in `Math.max` function)
+  - [X] A function `largest` that takes an array of numbers as input an returns the largest in the array (using the function `larger` you defined above)
+- [X] A function `longer` that takes two strings as input and returns the longer of the two
+  - [X] A function `longest` that takes an array of strings as input and returns the longest string in the array (using the `longer` function you defined above)
+- [X] A function `reverse` that takes an array as input and returns a new array containing the same elements as the input array, but in reverse order (don't use the build-in `reverse()` function)
+- [X] A function `isChicagoPhoneNumber` that takes an array of US phone numbers as input and returns true if the area code is 773, 312, or 872. The phone numbers are strings that look like `'XXX-YYY-ZZZZ'`.
+- [X] A function `letterCounts` that takes a string as an input and returns an object whose keys are the letters in the string and whose values are the number of times a particular letter appears.
 
 ### File I/O
 
@@ -324,9 +324,9 @@ Create a file called `data.txt` that contains a few dozen random lines of varyin
 
 In a file called `files.js`, you should be able to do the following:
 
-- [ ] Read the contents of `data.txt` into a string
-- [ ] Create an array containing one entry per line
-- [ ] Print the longest and shortest lines in `data.txt`
+- [X] Read the contents of `data.txt` into a string
+- [X] Create an array containing one entry per line
+- [X] Print the longest and shortest lines in `data.txt`
 
 ## Understanding Code Like A Computer
 
