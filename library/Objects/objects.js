@@ -5,7 +5,7 @@ function personalInfo() {
   personData.firstName = 'Jean-Luc'
   personData.lastName = 'Picard'
   personData.age = 79
-  console.log(personData)
+  return personData
 }
 personalInfo()
 
@@ -24,6 +24,13 @@ function daysPerMonth() {
   daysInMonth.October = 31;
   daysInMonth.November = 30;
   daysInMonth.December = 31;
-  console.log(daysInMonth)
-}
+  return daysInMonth
+
+  }
+  //console.log(daysInMonth)
+
+
+//return daysInMonth
 daysPerMonth()
+
+module.exports = daysPerMonth();
